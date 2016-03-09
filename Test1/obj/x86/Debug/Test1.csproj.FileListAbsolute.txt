@@ -1,0 +1,6 @@
+C:\CisCAD2014\Test1\obj\x86\Debug\Test1.csprojResolveAssemblyReference.cache
+C:\CisCAD2014\Test1\obj\x86\Debug\Test1.ConPiezarMaquinasVirtuales.resources
+C:\CisCAD2014\Test1\obj\x86\Debug\Test1.Form1.resources
+C:\CisCAD2014\Test1\obj\x86\Debug\Test1.ProgresoForm.resources
+C:\CisCAD2014\Test1\obj\x86\Debug\Test1.Properties.Resources.resources
+C:\CisCAD2014\Test1\obj\x86\Debug\Test1.csproj.GenerateResource.Cache

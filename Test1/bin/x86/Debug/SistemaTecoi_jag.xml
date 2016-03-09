@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TECOISYSTEM>
+  
+  <AXES>
+    <AXE AxeIndex="0" AxeType="1"/>
+    <AXE AxeIndex="1" AxeType="1"/>
+    <AXE AxeIndex="2" AxeType="1"/>
+    <AXE AxeIndex="3" AxeType="1"/>
+    <AXE AxeIndex="4" AxeType="1"/>
+    <AXE AxeIndex="5" AxeType="1"/>
+    <AXE AxeIndex="6" AxeType="1"/>
+    <AXE AxeIndex="7" AxeType="1"/>
+  </AXES>
+  
+  <TOOLS>
+    <TOOL ToolNumber="0" ToolType="2"/>
+    <TOOL ToolNumber="1" ToolType="2"/>
+  </TOOLS>
+
+  <TECNOLOGIAS_CEBADO>
+    <CEBADO NombreTecnologia ="Capacitivo" CebadoIndex="0"/>
+    <CEBADO NombreTecnologia ="Regulado" CebadoIndex="1"/>
+    <CEBADO NombreTecnologia ="Por Contacto" CebadoIndex="2"/>
+    <CEBADO NombreTecnologia ="Altura Fija" CebadoIndex="3"/>
+    <CEBADO NombreTecnologia ="Sensor Láser" CebadoIndex="5"/>
+    <CEBADO NombreTecnologia ="Pisón" CebadoIndex="6"/>
+    <CEBADO NombreTecnologia ="Cebado Tinta" CebadoIndex="7"/>
+    <CEBADO NombreTecnologia ="Corte Láser" CebadoIndex="8"/>
+  </TECNOLOGIAS_CEBADO>
+
+  <VIRTUAL_MACHINES>
+    <VIRTUAL_MACHINE MachinaIndex = "0" VirtualMachineCode="00-00-000-000"/>
+    <VIRTUAL_MACHINE MachinaIndex = "1" VirtualMachineCode="00-00-001-001"/>
+    <VIRTUAL_MACHINE MachinaIndex = "2" VirtualMachineCode="00-00-001-002"/>
+  </VIRTUAL_MACHINES>
+
+  <AXE_0 
+    NumeroEje = "0" 
+    TipoEje = "1" 
+    NombreEje = "X" 
+    CodigoEje = "0"
+    VelocidadVacio = "200" 
+    VelocidadCorte = "60" 
+    VelocidadManual = "100" 
+    Aceleracion = "1000" 
+    Deceleracion = "1000"
+  />
+  <AXE_1
+    NumeroEje = "1" 
+    TipoEje = "1" 
+    NombreEje = "X1" 
+    CodigoEje = "0"
+    VelocidadVacio = "200" 
+    VelocidadCorte = "60" 
+    VelocidadManual = "100" 
+    Aceleracion = "1000" 
+    Deceleracion = "1000"
+  />
+  <AXE_2
+    NumeroEje = "2"
+    TipoEje = "1"
+    NombreEje = "Y1"
+    CodigoEje = "1"
+    VelocidadVacio = "200"
+    VelocidadCorte = "60"
+    VelocidadManual = "100"
+    Aceleracion = "1000"
+    Deceleracion = "1000"
+  />
+  <AXE_3
+    NumeroEje = "3"
+    TipoEje = "1"
+    NombreEje = "Y2"
+    CodigoEje = "1"
+    VelocidadVacio = "200"
+    VelocidadCorte = "60"
+    VelocidadManual = "100"
+    Aceleracion = "1000"
+    Deceleracion = "1000"
+  />
+  <AXE_4
+    NumeroEje = "4"
+    TipoEje = "1"
+    NombreEje = "Y3"
+    CodigoEje = "1"
+    VelocidadVacio = "200"
+    VelocidadCorte = "60"
+    VelocidadManual = "100"
+    Aceleracion = "1000"
+    Deceleracion = "1000"
+  />
+  <AXE_5
+    NumeroEje = "5"
+    TipoEje = "1"
+    NombreEje = "Z1"
+    CodigoEje = "2"
+    VelocidadVacio = "200"
+    VelocidadCorte = "60"
+    VelocidadManual = "100"
+    Aceleracion = "1000"
+    Deceleracion = "1000"
+  />
+  <AXE_6
+  NumeroEje = "6"
+  TipoEje = "1"
+  NombreEje = "Z2"
+  CodigoEje = "3"
+  VelocidadVacio = "200"
+  VelocidadCorte = "60"
+  VelocidadManual = "100"
+  Aceleracion = "1000"
+  Deceleracion = "1000"
+  />
+  <AXE_7
+    NumeroEje = "7"
+    TipoEje = "1"
+    NombreEje = "Z3"
+    CodigoEje = "2"
+    VelocidadVacio = "200"
+    VelocidadCorte = "60"
+    VelocidadManual = "100"
+    Aceleracion = "1000"
+    Deceleracion = "1000"
+  />
+
+  <TOOL_0
+    NombreHerramienta = "Plasma_Corte" 
+    VelocidadBajada="200" 
+    VelocidadSubida="200" 
+    VelocidadRegulacion="50" 
+    FicheroCalidades="FicheroCalidades.xml" 
+    OffsetX="0.0"
+    OffsetY="0.0"
+    EjeZAsociado="4"
+  />
+  <TOOL_1
+    NombreHerramienta = "Plasma_Corte"
+    VelocidadBajada="200"
+    VelocidadSubida="200"
+    VelocidadRegulacion="50"
+    FicheroCalidades="FicheroCalidades.xml"
+    OffsetX="0.0"
+    OffsetY="0.0"
+    EjeZAsociado="5"
+  />
+  <VIRTUAL_MACHINE_0>
+    <NombreMaquina NombreMaquina = "Maquina_Plasma_Corte1" />
+    <EjeX EjeX = "0" />
+    <EjeX1 EjeX1 = "1" />
+    <EjeY EjeY = "2" />
+    <EjeZ EjeZ = "5" />
+    <Herramientas Herramienta = "0" />
+    <CEBADO CebadoIndex="2"/>
+    <CEBADO CebadoIndex="3"/>
+  </VIRTUAL_MACHINE_0>
+  <VIRTUAL_MACHINE_1>
+    <NombreMaquina NombreMaquina = "Maquina_Plasma_Corte2" />
+    <EjeX EjeX = "0" />
+    <EjeX1 EjeX1 = "1" />
+    <EjeY EjeY = "3" />
+    <EjeZ EjeZ = "6" />
+    <Herramientas Herramienta = "0" />
+    <CEBADO CebadoIndex="3"/>
+  </VIRTUAL_MACHINE_1>
+  <VIRTUAL_MACHINE_2>
+    <NombreMaquina NombreMaquina = "Maquina_Plasma_CorteMulti" />
+    <EjeX EjeX = "0" />
+    <EjeX1 EjeX1 = "1" />
+    <EjeY EjeY = "2" />
+    <EjeY2 EjeY2 = "3" />
+    <EjeY3 EjeY3 = "4" />
+    <EjeZ EjeZ = "5" />
+    <EjeZ2 EjeZ2 = "6" />
+    <EjeZ3 EjeZ3 = "7" />
+    <Herramientas Herramienta = "0" />
+    <CEBADO CebadoIndex="2"/>
+    <CEBADO CebadoIndex="3"/>
+  </VIRTUAL_MACHINE_2>
+ 
+  <TECNOLOGIAS_CEBADO_2>
+    <OffsetX OffsetX="0"/>
+    <OffsetY OffsetY="0"/>
+  </TECNOLOGIAS_CEBADO_2>
+  <TECNOLOGIAS_CEBADO_3>
+      <OffsetX OffsetX="0"/>
+      <OffsetY OffsetY="0"/>
+  </TECNOLOGIAS_CEBADO_3>
+  
+</TECOISYSTEM>
